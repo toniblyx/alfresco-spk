@@ -117,9 +117,10 @@ Below a configuration example that builds an allinone image:
 ## Configure Vagrant
 Vagrant needs some additional plugins:
 ```
-vagrant plugin install vagrant-omnibus
-vagrant plugin install vagrant-vbguest
 vagrant plugin install json-merge_patch
+vagrant plugin install vagrant-omnibus (NOT SURE THIS ONE)
+vagrant plugin install vagrant-vbguest (NOT SURE THIS ONE)
+
 ```
 
 ## Development Workflow
