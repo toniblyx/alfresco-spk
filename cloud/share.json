@@ -1,0 +1,11 @@
+{
+    "name": "share",
+    "alfresco" : {
+        "skip_certificate_creation" : true,
+        "version" : "5.0.2",
+        "edition" : "enterprise",
+        "components" : ["haproxy","tomcat","transform","repo","share","aos"],
+        "restart_services" : ["tomcat-alfresco","tomcat-share"]
+    },
+    "run_list": ["alfresco::default"]
+}
