@@ -1,8 +1,0 @@
-{
-    "name": "web",
-
-    "alfresco" : {
-        "components" : ["haproxy","nginx","varnish"]
-    },
-    "run_list": ["alfresco::default"]
-}
